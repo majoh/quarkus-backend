@@ -23,10 +23,12 @@ public class Post extends PanacheMongoEntity {
         this.timestamp = new Date().getTime();
     }
 
+    // Magnus
     public String getTitle() {
         return title;
     }
-
+    
+    // Magnus
     public String getContent() {
         return content;
     }
